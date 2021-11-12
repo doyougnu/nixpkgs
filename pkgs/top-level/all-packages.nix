@@ -232,6 +232,10 @@ with pkgs;
 
   buildMaven = callPackage ../build-support/build-maven.nix {};
 
+  bqn-fonts    = callPackage ../data/fonts/bqn-fonts {};
+  bqn-bytecode = callPackage ../development/interpreters/bqn/bqn-bytecode {};
+  bqn          = callPackage ../development/interpreters/bqn { };
+
   castget = callPackage ../applications/networking/feedreaders/castget { };
 
   castxml = callPackage ../development/tools/castxml {
