@@ -2988,6 +2988,12 @@
     githubId = 16599;
     name = "Chris Double";
   };
+  doyougnu = {
+    email    = "youngjef@oregonstate.edu";
+    github   = "doyougnu";
+    githubId = 7284712;
+    name     = "Jeffrey Young";
+  };
   dpaetzel = {
     email = "david.paetzel@posteo.de";
     github = "dpaetzel";
